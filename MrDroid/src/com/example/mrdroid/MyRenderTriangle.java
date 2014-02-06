@@ -5,7 +5,7 @@ import javax.microedition.khronos.opengles.GL10;
 
 import android.opengl.GLSurfaceView.Renderer;
 
-public class MyRender implements Renderer {
+public class MyRenderTriangle implements Renderer {
 
 	Droidkun droid = new Droidkun(10, 10, 50, 100);
 	

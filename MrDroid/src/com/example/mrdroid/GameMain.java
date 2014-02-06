@@ -16,5 +16,23 @@ public class GameMain extends Activity {
 		setContentView(myGlsv);
 	}
 
+	@Override
+	protected void onDestroy() {
+		// TODO 自動生成されたメソッド・スタブ
+		super.onDestroy();
+	}
+
+	@Override
+	protected void onPause() {
+		// TODO 自動生成されたメソッド・スタブ
+		super.onPause();
+	}
+
+	@Override
+	protected void onStop() {
+		// TODO 自動生成されたメソッド・スタブ
+		super.onStop();
+	}
+
 
 }
